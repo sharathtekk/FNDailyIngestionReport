@@ -1,0 +1,26 @@
+app:
+  report:
+    output-path: C:\Root\Temp
+    file-prefix: recon_report
+  query:
+    date-field: DateCreated
+    form-type-field: FormType
+    source-field: Source
+    class-name: Document
+  timeout:
+    filenet-seconds: 100
+  execution:
+    retry-enabled: false
+    fail-fast: true
+  filenet:
+    enabled: true
+    ce-uri: http://localhost:9080/wsi/FNCEWS40MTOM/
+    object-store: OS1
+    jaas-stanza: FileNetP8WSI
+    username: change-me
+    password: change-me
+
+logging:
+  level:
+    root: INFO
+
