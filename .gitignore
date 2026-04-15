@@ -1,0 +1,4 @@
+# IBM vendor JARs (place Jace.jar etc. locally; do not commit proprietary binaries)
+lib/*.jar
+
+target/
